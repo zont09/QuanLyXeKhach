@@ -28,3 +28,7 @@ C:\Users\phamngocthinh\source\repos\QuanLyXeKhach\QuanLyXeKhach\QuanLyXeKhach\ob
 C:\Users\phamngocthinh\source\repos\QuanLyXeKhach\QuanLyXeKhach\QuanLyXeKhach\obj\Debug\net6.0-windows\ResourceXAML\MainResource.baml
 C:\Users\phamngocthinh\source\repos\QuanLyXeKhach\QuanLyXeKhach\QuanLyXeKhach\obj\Debug\net6.0-windows\LoginWindow.g.cs
 C:\Users\phamngocthinh\source\repos\QuanLyXeKhach\QuanLyXeKhach\QuanLyXeKhach\obj\Debug\net6.0-windows\LoginWindow.baml
+C:\Users\phamngocthinh\source\repos\QuanLyXeKhach\QuanLyXeKhach\QuanLyXeKhach\obj\Debug\net6.0-windows\UserControlZ\ControlBarUC.g.cs
+C:\Users\phamngocthinh\source\repos\QuanLyXeKhach\QuanLyXeKhach\QuanLyXeKhach\obj\Debug\net6.0-windows\UserControlZ\ControlBarUC.baml
+C:\Users\phamngocthinh\source\repos\QuanLyXeKhach\QuanLyXeKhach\QuanLyXeKhach\bin\Debug\net6.0-windows\Microsoft.Expression.Interactions.dll
+C:\Users\phamngocthinh\source\repos\QuanLyXeKhach\QuanLyXeKhach\QuanLyXeKhach\bin\Debug\net6.0-windows\System.Windows.Interactivity.dll

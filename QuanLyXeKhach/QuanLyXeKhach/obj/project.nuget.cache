@@ -1,12 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "ggcEqY9ssHcQf4sRPWouZTf0YjkaSccSw+5tDkcMjLYBoRRstPwukVPUgbXw+ehBG8w3yY+KkqVpMEcy/c5QOA==",
+  "dgSpecHash": "Q5+Vl/YauG7BwEcHaLf4VlKniJjTbUmq34kkpqAIaDWglq3mGAnXXK4FmYtaEwkBJDeVUGZYkAxkffJu9h3GFw==",
   "success": true,
   "projectFilePath": "C:\\Users\\phamngocthinh\\source\\repos\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phamngocthinh\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
     "C:\\Users\\phamngocthinh\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
-    "C:\\Users\\phamngocthinh\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    "C:\\Users\\phamngocthinh\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\phamngocthinh\\.nuget\\packages\\system.windows.interactivity.wpf\\2.0.20525\\system.windows.interactivity.wpf.2.0.20525.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Windows.Interactivity.WPF 2.0.20525' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Windows.Interactivity.WPF",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

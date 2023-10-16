@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuanLyXeKhach"
+        xmlns:uc="clr-namespace:QuanLyXeKhach.UserControlZ"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         TextElement.FontWeight="Regular"
@@ -14,10 +15,19 @@
         FontFamily="{DynamicResource MaterialDesignFont}"    
         DataContext="{StaticResource MainVM}"
         mc:Ignorable="d"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="450" Width="800"
         >
         
     <Grid>
-        <Button Height="200" Width="150" Content="{Binding  BTName}"></Button>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <uc:ControlBarUC></uc:ControlBarUC>
+        </Grid>
     </Grid>
 </Window>
