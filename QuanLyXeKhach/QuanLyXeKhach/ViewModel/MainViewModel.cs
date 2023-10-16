@@ -11,7 +11,22 @@ namespace QuanLyXeKhach.ViewModel
     {
         public MainViewModel() 
         {
-            MessageBox.Show("Dang trong main viewmodel");
+            _BTName = "Data Context";
+            Window loginWindow = new LoginWindow();
+            loginWindow.Show();
+        }
+        private string _BTName;
+        public string BTName
+        {
+            get
+            {
+                return _BTName;
+            }
+            set
+            {
+                _BTName = value;
+                OnPropertyChanged(BTName);
+            }
         }
     }
 }
