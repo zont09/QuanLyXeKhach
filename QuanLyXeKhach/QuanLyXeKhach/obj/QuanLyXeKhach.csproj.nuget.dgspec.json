@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Desktop\\btcode\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj": {}
+    "C:\\Users\\phamngocthinh\\Source\\Repos\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Desktop\\btcode\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj": {
+    "C:\\Users\\phamngocthinh\\Source\\Repos\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\btcode\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj",
+        "projectUniqueName": "C:\\Users\\phamngocthinh\\Source\\Repos\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj",
         "projectName": "QuanLyXeKhach",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\btcode\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj",
+        "projectPath": "C:\\Users\\phamngocthinh\\Source\\Repos\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj",
         "packagesPath": "C:\\Users\\phamngocthinh\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\btcode\\QuanLyXeKhach\\QuanLyXeKhach\\obj\\",
+        "outputPath": "C:\\Users\\phamngocthinh\\Source\\Repos\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

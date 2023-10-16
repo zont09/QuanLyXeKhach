@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QSng+ZN0JCrcsRW4MK/RwXwizu80RQaqLX/eWv6wQi4oqhn1WfEzvmn5sskR8+VDfAz1JzcueWGxkItXmQFvoQ==",
+  "dgSpecHash": "gT+g6Lo9gfC3J2Ktwsp6KuTU++KDDhN3quU4Rf1gGbiQI7A5tscCd/AsktqZWCZ3JT0F9bYhS/rnOY7rG7+rFg==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Desktop\\btcode\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\phamngocthinh\\Source\\Repos\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phamngocthinh\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\phamngocthinh\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\phamngocthinh\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
   "logs": []
 }
