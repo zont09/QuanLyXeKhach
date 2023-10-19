@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q5+Vl/YauG7BwEcHaLf4VlKniJjTbUmq34kkpqAIaDWglq3mGAnXXK4FmYtaEwkBJDeVUGZYkAxkffJu9h3GFw==",
+  "dgSpecHash": "zFHSeDxNNqnRgmjYR9NrKv5Mgjwc/Xt3RHfxk0qc9RcThzPgUdzUek+T4a8TxJwuXEyUCx8ZZAnEFCesXfIDiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\phamngocthinh\\source\\repos\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj",
+  "projectFilePath": "C:\\Users\\phamngocthinh\\source\\repos\\QLXK\\QuanLyXeKhach\\QuanLyXeKhach\\QuanLyXeKhach.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phamngocthinh\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
     "C:\\Users\\phamngocthinh\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",

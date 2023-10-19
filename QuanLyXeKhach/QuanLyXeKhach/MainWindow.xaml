@@ -24,10 +24,138 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <uc:ControlBarUC></uc:ControlBarUC>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Border BorderBrush="Black" BorderThickness="1"></Border>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Border BorderBrush="Black" BorderThickness="1"></Border>
+            </Grid>
+            <Grid Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="65"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <materialDesign:PackIcon Width="80" Height="80" VerticalAlignment="Center" HorizontalAlignment="Center" Kind="Account" />
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="Tên" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"></TextBlock>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <TextBlock Text="Chức vụ" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"></TextBlock>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Border BorderBrush="Black" BorderThickness="1"></Border>
+            </Grid>
+            <Grid Grid.Column="0">
+                <StackPanel>
+                    <Button
+                        Width="auto"
+                        Content="HOME"
+                        BorderThickness="1"
+                        BorderBrush="Black"
+                        IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                        Style="{StaticResource MaterialDesignRaisedSecondaryButton}"
+                        ToolTip="Resource name: MaterialDesignRaisedSecondaryButton" />
+                    <Button
+                        Width="auto"
+                        Content="NHÂN VIÊN"
+                        BorderThickness="1"
+                        BorderBrush="Black"
+                        IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                        Style="{StaticResource MaterialDesignRaisedSecondaryButton}"
+                        ToolTip="Resource name: MaterialDesignRaisedSecondaryButton" />
+                    <Button
+                        Width="auto"
+                        Content="THỐNG KÊ"
+                        BorderThickness="1"
+                        BorderBrush="Black"
+                        IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                        Style="{StaticResource MaterialDesignRaisedSecondaryButton}"
+                        ToolTip="Resource name: MaterialDesignRaisedSecondaryButton" />
+                    <Button
+                        Width="auto"
+                        Content="NULL"
+                        BorderThickness="1"
+                        BorderBrush="Black"
+                        IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                        Style="{StaticResource MaterialDesignRaisedSecondaryButton}"
+                        ToolTip="Resource name: MaterialDesignRaisedSecondaryButton" />
+                    <Button
+                        Width="auto"
+                        Content="NULL"
+                        BorderThickness="1"
+                        BorderBrush="Black"
+                        IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                        Style="{StaticResource MaterialDesignRaisedSecondaryButton}"
+                        ToolTip="Resource name: MaterialDesignRaisedSecondaryButton" />
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition ></RowDefinition>
+                    <RowDefinition Height="60"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Border BorderBrush="black" BorderThickness="0.5"></Border>
+                    <ListView>
+                        
+                    </ListView>
+                </Grid>
+                <Grid Grid.Row="1">
+                    
+                    <WrapPanel HorizontalAlignment="Right" >
+                        <Button
+                            Margin="5 12"
+                            Width="75"
+                            Content="Thêm"
+                            IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                            Style="{StaticResource MaterialDesignPaperSecondaryDarkButton}"
+                            ToolTip="Resource name: MaterialDesignPaperSecondaryDarkButton" />
+                        <Button
+                            Margin="5 12"
+                            Width="75"
+                            Content="Sửa"
+                            IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                            Style="{StaticResource MaterialDesignPaperSecondaryDarkButton}"
+                            ToolTip="Resource name: MaterialDesignPaperSecondaryDarkButton" />
+                        <Button
+                            Margin="5 12"
+                            Width="75"
+                            Content="Xóa"
+                            IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                            Style="{StaticResource MaterialDesignPaperSecondaryDarkButton}"
+                            ToolTip="Resource name: MaterialDesignPaperSecondaryDarkButton" />  
+                    </WrapPanel>
+                </Grid>
+            </Grid>
         </Grid>
     </Grid>
 </Window>
