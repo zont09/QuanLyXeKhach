@@ -19,7 +19,7 @@ CommandParameter="{Binding ElementName=ucControBar}"/>
                             
     <Grid>
         <materialDesign:ColorZone
-            Mode="Inverted" Background="#FF45A113">
+            Mode="Inverted" Background="#25b24a">
             <DockPanel Background="Transparent">
                 <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
                     <StackPanel.Resources>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\phamngocthinh\source\repos\QLXK\QuanLyXeKhach\QuanLyXeKhach\obj\Debug\net6.0-windows\
+C:\Users\user\Source\Repos\QuanLyXeKhach\QuanLyXeKhach\QuanLyXeKhach\obj\Debug\net6.0-windows\
 QuanLyXeKhach
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\phamngocthinh\source\repos\QLXK\QuanLyXeKhach\QuanLyXeKhach\App.xaml
-4-523340333
+C:\Users\user\Source\Repos\QuanLyXeKhach\QuanLyXeKhach\QuanLyXeKhach\App.xaml
+944286029
 
-10389808466
-199-1878830980
-LoginWindow.xaml;MainWindow.xaml;ResourceXAML\MainResource.xaml;UserControlZ\ControlBarUC.xaml;
+15-1628954276
+1991784665746
+AddBusWd.xaml;AddClientWd.xaml;AddRouteWd.xaml;AddStaffWd.xaml;AddTicketWd.xaml;LoginWindow.xaml;MainWindow.xaml;ResourceXAML\MainResource.xaml;UserControlZ\ControlBarUC.xaml;
 
-False
+True
 

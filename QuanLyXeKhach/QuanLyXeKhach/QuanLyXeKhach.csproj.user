@@ -7,6 +7,21 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AddBusWd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddClientWd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddRouteWd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddStaffWd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddTicketWd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -15,6 +30,21 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AddBusWd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddClientWd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddRouteWd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddStaffWd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddTicketWd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LoginWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
